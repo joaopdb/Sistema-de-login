@@ -14,6 +14,15 @@ $fet_busca = mysql_fetch_assoc($exe_busca);
 </head>
 
 <body>
-Olá <? echo $fet_busca['login'];?>
+Olá <?php
+ echo $fet_busca['login'];
+ ?>
+
+    <tr>
+      <td>&nbsp;</td>
+      <td><span class="Style6"><a href="logout.php">logout</a></span></td>
+    </tr>
+
+
 </body>
 </html>
